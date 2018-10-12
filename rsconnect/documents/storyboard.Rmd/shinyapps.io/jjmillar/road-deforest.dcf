@@ -1,0 +1,12 @@
+name: road-deforest
+title: road-deforest
+username:
+account: jjmillar
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 511190
+bundleId: 1639667
+url: https://jjmillar.shinyapps.io/road-deforest/
+when: 1539366995.06003
+asMultiple: FALSE
+asStatic: FALSE

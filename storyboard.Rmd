@@ -11,13 +11,17 @@ runtime: shiny
 library(flexdashboard)
 ```
 
-### Roads are a major driver of tropical deforestation. 
+### Roads are a major driver of deforestation in the Amazon. 
+![](https://66.media.tumblr.com/0d51a398ab9fc6807a1d12d657a1ffd8/tumblr_mmldmpD5f11rprch2o2_500.gif)
+
+### Determining the best route to connect two places with a road is not trivial given that proximity to the road and to the population center often result in higher probability of deforestation. 
+
+![]("figure5.PNG")
+
+Figure 5. Optimized road layouts. Potential 3-vertices road layouts were created, assuming that 〖C_r〗^km=4 and 〖C_PA〗^pixel=2, respectively. Each panel depicts the results based on a given cost of deforesting UA (〖C_UA〗^pixel) and a given protective effect level of protected areas (P_PA). 
 
 
-### Determining the best route to connect two places with a road is not trivial given that proximity to the road and to the population center often result in higher probability of deforestation.
-
-
-### Creating an interactive application
+### Interactive scenario-based decision support tools can aid policy-makers in evaluating this multifactoiral problem.
 
 ```{r shiny-app}
 # Shiny app for exploring health facility distributions
